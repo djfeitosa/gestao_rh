@@ -14,4 +14,13 @@
         {% endbuttons %}
     </form>
 
+    <a href="{% url 'create_documento' object.id %}" class="btn btn-success">
+        Anexar documento
+    </a>
+    {% for documento in object.documento_set.all %}
+        <a href="{{ documento.arquivo.url }}">
+            {{ documento }}
+        </a>
+        <br/>
+    {% endfor%}
 {% endblock %}
