@@ -26,7 +26,7 @@ SECRET_KEY = '&1%3m6d=!^ka!i5-!0!#+=vuu2w0u&(odwwksab*pmje@$!@my'
 # EM PRODUÇÃO MUDAR PARA False +++++++++++++++++++++++++++++++++++
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['ddsistemas.com']
 
 
 # Application definition
